@@ -1,0 +1,81 @@
+canvas{ position: absolute;
+    height: 100%;
+    width: 100%;
+z-index: -1; }
+body{
+    background: #2e9ce6;
+    color: white; 
+font-family: 'Raleway', sans-serif;
+}
+.btn{
+    color: white;
+  font-size: 25px;
+ 
+}
+a{
+      font-size: 25px;
+      color: white;
+      position: relative;
+    
+      margin-left: 3px;
+}
+a:hover{
+   color: white;
+}
+
+.heading{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.contain{
+    margin-left: 30px;
+    padding: 20px;
+    margin-right: 30px;
+}
+.bucket{
+    background:#1581C9;  
+    padding: 20px;
+  
+}
+.firstrow{
+    margin-bottom: 30px;
+}
+.form-control{
+    width: 83%;
+    margin-bottom: 40px;
+    
+}
+.item{
+    background-color: #a5f883;
+    color: black;
+   font-size: 13px;
+   padding: 13px;
+   width: 150px;
+}
+li{ 
+    margin: 20px;
+    background-color: #2e9ce6;
+    color: white;
+}
+.list-group-item{
+      background-color: #2e9ce6;
+      color: white;
+      border-radius: 0px;
+}
+.pbucket{
+    position: relative;
+    left: 25px;
+}
+a:hover{
+    text-decoration: none;
+   
+}
+
+.take{
+    position: relative;
+    top: 0px;
+
+}
+.about{
+    float: left;
+}
