@@ -15,6 +15,7 @@ $('ul').on( "click",'li' , function(e){
 $('input').keypress( function(e){
     if(e.which === 13)
     { var input = $(this).val();
+    	if(input.length != 0){
        $(this).val("");
      
            $('ul').append("<li class='list-group-item'> "  +input+  "</li>");
@@ -22,18 +23,19 @@ $('input').keypress( function(e){
               
        t++;
        $("#bucketnumber").text(t);
-     
+      }
        
     }
         });
        // adding bucket list via button
         $('button').click( function(){
        { var input = $("input").val();
+       	if(input.length != 0){
        $("input").val("");
        $('ul').append("<li class='list-group-item'> "  +input+  "</li>");
        t++;
        $("#bucketnumber").text(t);
-     
+     }
        
     }
         });
